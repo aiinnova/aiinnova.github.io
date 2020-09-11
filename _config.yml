@@ -57,7 +57,7 @@ plugins:
 
 # minima settings (only valid for minima version >= 3)
 author:
-  name: Aiinnova
+  # name: Aiinnova
   email: contact@aiinnova@com
 minima:
   social_links:
