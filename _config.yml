@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Aiinnova
-email: contact@aiinnova.com
+#email: contact@aiinnova.com
 description: >- # this means to ignore newlines until "baseurl:"
   Artificial Intelligence and Data Science consulting services and solutions 
   to enable data-driven business decisions and accelerate data-to-value. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: aiinnova_
-github_username:  aiinnova
+#twitter_username: aiinnova_
+#github_username:  aiinnova
 # linkedin_username: company/aiinnova
 
 # Build settings
@@ -54,6 +54,19 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# minima settings (only valid for minima version >= 3)
+author:
+  name: Aiinnova
+  email: contact@aiinnova@com
+minima:
+  social_links:
+    twitter: aiinnova_
+    github: aiinnova
+    #linkedin_company: aiinnova  #https://www.linkedin.com/company/aiinnova
+    facebook: aiinnova
+    youtube_channel: UC2REU23Fe_ALUqWx_53AEwA
+    youtube_channel_name: Aiinnova
 
 # remote-theme plugin settings
 remote_theme: jekyll/minima
