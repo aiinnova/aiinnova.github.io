@@ -30,9 +30,10 @@ github_username:  aiinnova
 # linkedin_username: company/aiinnova
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme  # to use GitHub-hosted theme version
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# remote-theme plugin settings
+remote_theme: jekyll/minima
